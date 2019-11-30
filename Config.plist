@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>AppleScript File</key>
+			<string>saladict.applescript</string>
+			<key>Before</key>
+			<string>copy</string>
+			<key>Image File</key>
+			<string>saladict.png</string>
+			<key>Long Running</key>
+			<false/>
+			<key>Requirements</key>
+			<array>
+				<string>copy</string>
+			</array>
+			<key>Title</key>
+			<string>Search In Saladict</string>
+		</dict>
+	</array>
+	<key>Extension Description</key>
+	<string>Look up the selected text in Saladict, an add-on for Firefox and Chrome.</string>
+	<key>Extension Identifier</key>
+	<string>com.myownextension.saladict</string>
+	<key>Extension Name</key>
+	<string>Saladict</string>
+
+</dict>
+</plist>
